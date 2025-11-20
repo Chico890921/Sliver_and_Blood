@@ -507,7 +507,7 @@ class Game:
         undo_rect = pygame.Rect(x, y, 135, 50)
         undo_color = GRAY if game_over else (PURPLE if self.history else GRAY)
         pygame.draw.rect(self.screen, undo_color, undo_rect)
-        text_surf = self.small_font.render(f"撤銷 ({len(self.history)})", True, WHITE)
+        text_surf = self.small_font.render(f"上一步 ({len(self.history)})", True, WHITE)
         text_rect = text_surf.get_rect(center=undo_rect.center)
         self.screen.blit(text_surf, text_rect)
         self.undo_button = undo_rect
@@ -516,7 +516,7 @@ class Game:
         redo_rect = pygame.Rect(x + 145, y, 135, 50)
         redo_color = GRAY if game_over else (ORANGE if self.redo_stack else GRAY)
         pygame.draw.rect(self.screen, redo_color, redo_rect)
-        text_surf = self.small_font.render(f"重做 ({len(self.redo_stack)})", True, WHITE)
+        text_surf = self.small_font.render(f"取消上一步 ({len(self.redo_stack)})", True, WHITE)
         text_rect = text_surf.get_rect(center=redo_rect.center)
         self.screen.blit(text_surf, text_rect)
         self.redo_button = redo_rect

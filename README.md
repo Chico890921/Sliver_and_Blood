@@ -10,9 +10,15 @@
 ![alt text](image.png)
 
 
-## 通關影片
+<details>
+<summary>通關影片（點擊展開）</summary>
 
 https://github.com/user-attachments/assets/6cfef850-9152-400d-8dde-b62d9f0f3710
+
+https://github.com/user-attachments/assets/8ba7dcf0-f310-42ce-a54c-b1e24e99800e
+
+</details>
+<br>
 
 這是「銀與血 - 詭秘航路」其中一關：軍械號 II - 四重奏的模擬小遊戲，使用 Python + pygame 製作。
 ~~本來想請 AI 來幫我破關，結果自己突然就過關了~~
