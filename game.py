@@ -918,7 +918,7 @@ class Game:
                         self.handle_click(event.pos)
                 elif event.type == pygame.MOUSEMOTION:
                     # 靜止技能預覽：滑鼠移動時即時顯示範圍
-                    if self.selected_skill == 'skill2' and self.player_turn and not self.game_won and not self.game_lost:
+                    if self.selectegd_skill == 'skill2' and self.player_turn and not self.game_won and not self.game_lost:
                         mx, my = event.pos
                         if mx < GRID_SIZE * CELL_SIZE:
                             cx, cy = self.screen_to_coord(mx, my)

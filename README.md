@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-<!-- 你可以在這裡放置專案的徽章或下載連結 -->
+<a href="https://github.com/Chico890921/Sliver_and_Blood/releases"><img src="https://img.shields.io/github/downloads/Chico890921/Sliver_and_Blood/total?label=%E4%B8%8B%E8%BC%89%E6%AC%A1%E6%95%B8&style=for-the-badge"></a>
+<a href="https://github.com/Chico890921/Sliver_and_Blood/releases"><img src="https://img.shields.io/github/v/release/Chico890921/Sliver_and_Blood?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=for-the-badge"></a>
 </p>
-
 
 ![alt text](image.png)
 
